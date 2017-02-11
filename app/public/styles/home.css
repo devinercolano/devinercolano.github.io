@@ -1,0 +1,34 @@
+html{
+	/* Coloring in the strip of browser space at the top which is not defined by 'background' in body */
+	background-color: #f2efe2;;
+
+}
+
+body{
+	color: #3c4c7b;
+	background: #f2efe2;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;		
+}
+
+h1{
+	font-size: 7.5em;
+}
+
+#info{
+	font-size: 1.5em;
+	text-align: center;
+	width: 70%;
+}
+
+hr{
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em; 
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
